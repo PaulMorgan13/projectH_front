@@ -1,0 +1,53 @@
+.container{
+    background-image: url(../componets/images/bkImage.jpg);
+    background-repeat: no-repeat;  
+
+    display: flex; 
+    flex-direction: column; 
+    padding: 1em;
+} 
+
+
+.top-image-box{  
+    
+
+} 
+
+img{
+    width: 200px;  
+    height: 200px;
+    height: 1;
+    align-items: center;
+    margin: 2rem 0;
+}  
+
+.card{ 
+    
+    width: 100%; 
+    height: 200px;  
+    background: white;
+    border-radius: 10px; 
+    box-shadow: 1px 4px 2px 2px rgba(0, 0, 10, 0.594); 
+    margin: 1em 0; 
+    padding: .5em 0;
+
+} 
+
+.card h1{
+     font-size: 1.5em; 
+     margin: 0;
+}
+ 
+.card h2{
+    font-size: 1em; 
+    margin:0;
+}
+
+.top-heading{   
+    font-weight: normal;
+    font-size: 1.5em;
+    margin:0; 
+    padding: 0;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
